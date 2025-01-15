@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL AGENCY</title>
+    <link rel="stylesheet" href="c:\Users\soham\Downloads\Travel Agency_files\swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login Form</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <header>
+        <a href="#" class="logo"><span> TRAVEL</span> AGENCY</a>
+        <nav class="navbar">
+            <a href="logo_details.html?logo=home">HOME</a>
+            <a href="logo_details.html?logo=about">ABOUT</a>
+            <a href="logo_details.html?logo=services">SERVICES</a>
+            <a href="logo_details.html?logo=rooms">ROOMS</a>
+            <a href="logo_details.html?logo=packages">PACKAGES</a>
+            <button id="loginBtn">Login</button>
+        </nav>
+    </header>
+    
+    <section class="HOME" id="HOME">
+        <div class="content">
+            <h1>Find your next stay <br> Search deals on hotels, homes, and much more...</h1> 
+        </div>
+    </section>
+    <section class="BOOK" id="BOOK">
+        <div class="book-container">
+            <div class="image">
+                <img src="pngtree-colorful-book-now-sticker-offer-design-free-vector-download-png-image_6350741.png" alt="Book Now Image">
+            </div>
+            <div class="form-container">
+                <h4 class="heading">
+                    <span>B</span>
+                    <span>O</span>
+                    <span>O</span>
+                    <span>K</span>
+                    <span>N</span>
+                    <span>O</span>
+                    <span>W</span>
+                </h4>
+                <form action="">
+                    <div class="inputBox country-dropdown">
+                        <h3>Country</h3>
+                        <label for="country">Select Country: </label>
+                        <select id="country" name="country">
+                            <option value="USA">United States</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="Germany">Germany</option>
+                            <option value="France">France</option>
+                            <option value="Australia">Australia</option>
+                            <option value="India">India</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Mexico">Mexico</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                        <h3>Number of people</h3>
+                        <input type="number" placeholder="Number of guests">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Arrival</h3>
+                        <input type="date">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Departure</h3>
+                        <input type="date">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="feature" id="feature">
+        <div class="section_container feature_container">
+            <h2>Our Top Features</h2>
+            <p class="section_description">Explore the unique features and benefits that set us apart</p>
+    
+            <div class="feature_card">
+                <img src="image.html/lowest-booking.svg" alt="Feature Icon">
+                <div>
+                    <h3>Exclusive Deals</h3>
+                    <p>Get access to exclusive deals and offers on hotels, flights, and packages.</p>
+                </div>
+            </div>
+    
+            <div class="feature_card">
+                <img src="support.svg" alt="Feature Icon">
+                <div>
+                    <h3>24/7 Support</h3>
+                    <p>Our customer support team is available 24/7 to assist with any travel needs.</p>
+                </div>
+            </div>
+    
+            <div class="feature_card">
+                <img src="image.html/easy-booking.svg" alt="Feature Icon">
+                <div>
+                    <h3>Customizable Packages</h3>
+                    <p>Choose from a range of customizable vacation packages tailored to your preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="destination" id="destination">
+        <div class="section_container destination_container">
+            <h2>POPULAR DESTINATIONS</h2>
+            <p class="section_description">Find out the most popular destinations in the world</p>
+        </div>
+    </section>
+    <div class="container swiper">
+        <div class="slider-wrapper swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="destination_details.html?destination=Australia">
+                <img src="pexels-anytiffng-2097616.jpg" alt="User Image" class="user-image">
+                <h4>AUSTRALIA</h4>
+                <a href="#" class="card_button">VISIT</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="destination_details.html?destination=INDIA">
+                <img src="pexels-bithinrajxlr8-1786306.jpg" alt="User Image" class="user-image">
+                <h4>INDIA</h4>
+                <a href="#" class="card_button">VISIT</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="destination_details.html?destination=UK">
+                <img src="pexels-borja-lopez-1059078.jpg" alt="User Image" class="user-image">
+                <h4>UK</h4>
+                <a href="#" class="card_button">VISIT</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="destination_details.html?destination=USA">
+                <img src="pexels-pixabay-37646.jpg" alt="User Image" class="user-image">
+                <h4>USA</h4>
+                <a href="#" class="card_button">VISIT</a>
+            </div>
+            <div class="swiper-slide">
+                <a href="destination_details.html?destination=BALI">
+                <img src="pexels-valeriiamiller-2587004.jpg" alt="User Image" class="user-image">
+                <h4>BALI</h4>
+                <a href="#" class="card_button">VISIT</a>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</section>
+<section class="packages" id="packages">
+    <div class="section_container package_container">
+        <h2>Affordable Packages</h2>
+        <p class="section_description">Find affordable packages for different hotels</p>
+    </div>
+</section>
+<div class="container swiper">
+    <div class="slider-wrapper swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="packages_details.html?destination=THE TASMAN HOTEL"></a>
+            <img src="image.html/pexels-pixabay-271643.jpg" alt="User Image" class="user-image">
+            <h4>THE TASMAN HOTEL</h4>
+            <a href="#" class="card_button">50% Off on booking today</a>
+        </div>
+        <div class="swiper-slide">
+            <a href="packages_details.html?destination=THE TAJ HOTEL">
+            <img src="image.html/pexels-pixabay-262048.jpg" alt="User Image" class="user-image">
+            <h4>THE TAJ HOTEL</h4>
+            <a href="#" class="card_button">25% OFF</a>
+        </div>
+        <div class="swiper-slide">
+            <a href="packages_details.html?destination=THE Z HOTEL TRAFALGAR">
+            <img src="image.html/pexels-pixabay-271624.jpg" alt="User Image" class="user-image">
+            <h4>THE Z HOTEL TRAFALGAR</h4>
+            <a href="#" class="card_button">VISIT</a>
+        </div>
+        <div class="swiper-slide">
+            <a href="packages_details.html?destination=THE STRAT HOTEL">
+            <img src="image.html/pexels-pixabay-164595.jpg" alt="User Image" class="user-image">
+            <h4>THE STRAT HOTEL</h4>
+            <a href="#" class="card_button">VISIT</a>
+        </div>
+        <div class="swiper-slide">
+            <a href="packages_details.html?destination=LE GRANDE HOTEL">
+            <img src="image.html/pexels-pixabay-271643.jpg" alt="User Image" class="user-image">
+            <h4>LE GRANDE HOTEL</h4>
+            <a href="#" class="card_button">VISIT</a>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+<section class="contact-footer" id="contact">
+    <div class="section_container contact-container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, feel free to reach out to us!</p>
+
+        <form action="#" method="post" class="contact-form">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-box">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-box">
+                <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="action_btn">Send Message</button>
+        </form>
+    </div>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2025 Travel Agency | All Rights Reserved</p>
+        </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
